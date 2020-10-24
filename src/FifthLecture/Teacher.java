@@ -1,13 +1,16 @@
 package FifthLecture;
 
-import java.nio.channels.InterruptedByTimeoutException;
+
 
 public class Teacher {
 	
 	String name,gender;
 	int phone;
 	
-	public Teacher() {
+	public Teacher(String n,String g,int ph) {
+		name=n;
+		gender=g;
+		phone=ph;
 		
 	}
 	
@@ -23,7 +26,7 @@ public class Teacher {
 		System.out.println("name :"+this.name);
 		System.out.println("gender :"+this.gender);
 		System.out.println("phone :"+this.phone);
-		System.out.println("\n\n");
+		System.out.println("\n");
 	}
 
 }
