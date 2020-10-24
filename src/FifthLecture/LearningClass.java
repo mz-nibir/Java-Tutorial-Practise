@@ -23,7 +23,7 @@ public class LearningClass {
 //		teacher2.gender= "male";
 //		teacher2.phone=173333;
 		
-		teacher2.info("nihan", "male", 173333);
+		teacher2.info("NIHAN", "male", 173333);
 		
 		teacher2.display();
 		

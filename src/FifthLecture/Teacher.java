@@ -7,12 +7,16 @@ public class Teacher {
 	String name,gender;
 	int phone;
 	
-	void info(String n,String g,int ph) {
-		name=n;
-		gender=g;
-		phone=ph;
+	public Teacher() {
 		
 	}
+	
+//	void info(String n,String g,int ph) {
+//		name=n;
+//		gender=g;
+//		phone=ph;
+//		
+//	}
 	
 	void display() {
 		
