@@ -2,8 +2,11 @@ package static_variable;
 
 public class CallByValue {
 	
-	void change(int i) {
-		i=20;
+	
+	String name;
+	
+	void change(CallByValue r2) {
+		r2.name= "Nihan";
 	}
 
 }
