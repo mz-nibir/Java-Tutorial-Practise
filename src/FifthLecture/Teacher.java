@@ -7,7 +7,7 @@ public class Teacher {
 	String name,gender;
 	int phone;
 	
-	public Teacher(String n,String g,int ph) {
+	 Teacher(String n,String g,int ph) {
 		name=n;
 		gender=g;
 		phone=ph;
