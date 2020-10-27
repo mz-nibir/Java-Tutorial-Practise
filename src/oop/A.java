@@ -2,10 +2,8 @@ package oop;
 
 public class A {
 	
-	public A() {
-		
-		System.out.println("inside A Condtructor");
-		
+	void display() {
+		System.out.println("A class");
 	}
 	
 	
