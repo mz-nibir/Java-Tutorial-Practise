@@ -2,15 +2,15 @@ package oop;
 
 public class B extends A {
 	
+	public B() {
 	
-	
-	void display() {
 		
-		super.display();
-		
-		System.out.println("inside B Class");
-		
+		System.out.println("inside B constructor");
 		
 	}
+	
+	
+	
+	
 
 }
