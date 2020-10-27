@@ -2,25 +2,15 @@ package inharetance;
 
 public class Person {
 	
-	private String name;
-	private int age;
+	 String name;
+	 int age;
 	
-	public void setNames(String name) {
+	 void displayinfo() {
+		 
+		System.out.println("Name : "+name);
+		System.out.println("Age :"+age);
 		
-		this.name= name;
 	}
 	
-	public void setAge(int age) {
-		
-		this.age= age;
-	}
 	
-	public String getName() {
-		return name;
-	}
-	
-	public int getAge() {
-		return age;
-	}
-
 }

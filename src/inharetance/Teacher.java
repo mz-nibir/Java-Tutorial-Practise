@@ -2,26 +2,13 @@ package inharetance;
 
 public class Teacher extends Person{
 	
-	private String qualification;
+     String qualification;
 	
-	
-	public String getQualification() {
-		return qualification;
-	}
-
-	public void setQualification(String qualification) {
-		this.qualification = qualification;
-	}
-
-
-
-
-
-	void displayinfo() {
+		void displayinfo() {
 		
-		System.out.println("Name : "+getName());
-		System.out.println("Age : "+getAge());
-		System.out.println("Qualification  : "+getQualification());
+		System.out.println("Name : "+name);
+		System.out.println("Age : "+age);
+		System.out.println("Qualification  : "+qualification);
 		
 		
 	}
