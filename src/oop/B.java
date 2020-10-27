@@ -2,13 +2,13 @@ package oop;
 
 public class B extends A {
 	
-	int x=10;
+	
 	
 	void display() {
 		
+		super.display();
 		
-		
-		System.out.println("X :"+super.x);
+		System.out.println("inside B Class");
 		
 		
 	}
