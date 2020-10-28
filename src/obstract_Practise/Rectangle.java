@@ -2,20 +2,19 @@ package obstract_Practise;
 
 public class Rectangle extends Shape {
 	
-	double length,width;
+	//dim1,dim2;
 	
-	public Rectangle(double length,double width) {
+	
+	public Rectangle (double dim1, double dim2) {
 		
-		this.length=length;
-		this.width=width;
-		
+		super(dim1, dim2);
 	}
 	
-	double area() {
+	void area() {
 		
-		return length*width;
+		double result= dim1*dim2;
 		
-		//System.out.println("Rectangle Area is :"+length*width);
+		System.out.println("Rectangle Area is :"+result);
 		
 	}
 

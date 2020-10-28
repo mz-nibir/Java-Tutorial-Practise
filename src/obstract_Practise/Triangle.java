@@ -2,18 +2,20 @@ package obstract_Practise;
 
 public class Triangle extends Shape {
 	
-	double base,height;
+	//dim1,dim2;
 	
-	public Triangle(double base,double height) {
+	
+	public Triangle(double dim1, double dim2) {
 		
-		this.base=base;
-		this.height=height;
-		
+		super(dim1, dim2);
 	}
 	
-	double area() {
+	void area() {
 		
-		return 0.5*base*height;
+		double result= 0.5*dim1*dim2;
+		
+		System.out.println("Triangle Area is :"+result);
+		
 	}
 
 }

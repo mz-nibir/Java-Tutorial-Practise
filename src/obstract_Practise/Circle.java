@@ -2,17 +2,20 @@ package obstract_Practise;
 
 public class Circle extends Shape{
 	
-	double redius;
-	final double pi=3.1416;
 	
-	public Circle(double redius) {
-		this.redius=redius;
+	
+	
+	public Circle(double r) { 
+		super(r,r);
 		
 	}
 	
-	double area() {
+void area() {
 		
-		return pi*(redius*redius) ;
-	}
+		double result= Math.PI*dim1*dim2;
+		
+		System.out.println("Circle Area is :"+result);
 
+
+}
 }
